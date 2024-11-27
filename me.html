@@ -16,19 +16,34 @@
           animation-name: anforh2;
           animation-duration: 5s;
           animation-iteration-count: infinite;
+          font-size:3vw;
+          text-shadow:2px 2px 4px #000000;
       }
       body {
           border: 10px ridge;
           padding: 20px;
       }
+      @keyframes anforph {
+          from{border-radius: 0%;}
+          to{border-radius: 100%;}
+      }
+      .anph1{
+          width:60%;
+          height:auto;
+      }
+      .anph1:hover{
+          animation-name: anforph;
+          animation-duration: 1s;
+          animation-iteration-count: infinite;
+      }
     </style>
   </head>
   <body style="background-color: #ccffff;">
     <div style="color: #9999ff;font-family: sans-serif;">
-      <h1>陳禹潼的網站</h1>
+      <h1 class='title'>陳禹潼的網站</h1>
       <hr>
-      <img src="https://s.yimg.com/ny/api/res/1.2/43RWBWEde0lIlWFAG5TRPw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTg1NA--/https://media.zenfs.com/en/marieclaire.tw/9a0efff7966f79ea7d4caaf5f5f29e86" alt="alternative text">
-      <img src="https://api.elle.com.hk/var/site/storage/images/_aliases/img_776_w/7/2/8/1/38771827-1-chi-HK/UpdateScreenshot_2023-12-16_at_10_03_30_PM.jpg" alt="alternative text">
+      <img class="anph1" src="https://s.yimg.com/ny/api/res/1.2/43RWBWEde0lIlWFAG5TRPw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTg1NA--/https://media.zenfs.com/en/marieclaire.tw/9a0efff7966f79ea7d4caaf5f5f29e86" alt="alternative text">
+      <img class="anph1" src="https://api.elle.com.hk/var/site/storage/images/_aliases/img_776_w/7/2/8/1/38771827-1-chi-HK/UpdateScreenshot_2023-12-16_at_10_03_30_PM.jpg" alt="alternative text">
     </div>
     <div style="color: #9999ff;">
       <hr>
