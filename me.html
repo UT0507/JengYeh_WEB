@@ -70,6 +70,14 @@
   </nav>        
           <div style="color: #9999ff;font-family: sans-serif;">
            <marquee width="auto" behavior="scroll" bgcolor="#000000" direction="left" style="font-size: 2vw; color: white;">
+              <div id="timeDisplay" style="font-size: auto; color: #f7f5f5;">
+              </div>
+              <scipt>
+                setInerva1(() => {
+                    const now = new Date();
+                    document.getElemntById("timeDisplay").innerText = "現在時間 : "+ now.toLocaleTimeString();
+                }, 1000);
+              </scipt>
   木之本櫻擅長：烹飪、運動 喜愛的食物：海鮮、麵類 討厭的食物：蒟蒻（和小狼一樣）擅長烹煮：鬆餅 喜歡的顏色：粉紅色、白色 喜歡的花：櫻花 喜愛的科目：音樂、體育 討厭的科目：數學 男友：李小狼
 </marquee>
 
